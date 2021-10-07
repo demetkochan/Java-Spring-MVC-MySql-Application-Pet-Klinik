@@ -3,6 +3,19 @@
 Vet klinik projesi, Spring MVC'nin ve security'nin kullanıldığı bir veteriner uygulamasıdır. Üye olunup, giriş yapılarak uygulamaya girilebilir. Üye olunan her kişiye default olarak atanan rol vardır. Kullanıcılar giriş yaptıkları rollere göre bazı sayfalara erişim izinleri yoktur. Müşteri ve sahip olduğu hayvanlar eklenebilir, silinebilir ve listelenebilir. Ayrıca takvim kullanılarak randevu oluşturulabilir. Ayrıca ürünleri kaydetmek için depo ve kategoriler eklenebilir, silinebilir. Ürünler müşterilere satılabilir veya dışardan herhangi bir tedarikçiden ürünler alınabilir. Yapılan bu işlemlerin hepsi kasa hareketlerinde yapılan ödeme şekillerine göre listelenebilir. Laboratuvar ile müşterinin sahip olduğu herhangi bir hayvanın lab sonuçları, röntgen resimi ile birlikte kaydedilebilir. Ayrıca gerçekleştirilen işlemlerin istatistikleri gösterilebilir.
 
 
+## Kullanıcı Girişleri
+
+
+| Mail | Şifre | Rol |
+| ------------- |:-------------:|:-------------:|
+| veli@mail.com| 12345 | ROLE_CUSTOMER |
+| zehra@mail.com | 12345 | ROLE_ADMIN |
+| serkan@mail.com | 12345 | ROLE_DOCTOR |
+
+
+
+
+
 ## Kullanılan Diller ve Yetenekler
 
 
